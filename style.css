@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(#000000, #282A3A);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.container {
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    border: 2px solid #282A3A;
+    border-radius: 5%;
+}
+
+.container1 {
+    margin-left: 10px;
+    background-color: black;
+    width: 270px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+.container2 {
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: black;
+    width: 280px;
+    height: 300px;
+}
+
+.row1 button
+{
+    color: orange;
+}
+
+.btn
+{
+    background-color: #3F4E4F;
+    height: 40px;
+    width: 40px;
+    margin:10px;
+    border-radius: 15px;
+    border: 2px solid #3F4E4F;
+    color: white;
+    font-size: 20px;
+}
+
+.b
+{
+    color: orange;
+}

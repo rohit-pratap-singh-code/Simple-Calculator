@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 style="color: #B0C4DE; font-size: 100px; margin-right: 50px; margin-bottom: 100px;">CALCULATOR</h1>
+        <h4 style="color: #FFD700; font-size: 25px; margin-right: 50px; position: absolute; top: 400px; left: 400px;">Developer: <span style="color: white;">Rohit Pratap Singh</span></h1>
+        <div class="container">
+            <div class="container1">
+                <p style="color: aqua;">OUTPUT</p>
+                <input type="text" id="display" style="width: 250px; height: 100px; font-size: 24px; text-align: right; margin-top: 10px; background-color: black; color: white; border: 1px solid black;" disabled>
+            </div>
+            <hr>
+            <div class="container2">
+                <div class="row1">
+                    <button class="btn" value="AC" onClick="clearValue(this)">AC</button>
+                    <button class="btn" value="Back" onClick="backSpace(this)">⌫</button>
+                    <button class="btn" value="%" onClick="updateValue(this)">%</button>
+                    <button class="btn" value="/" onClick="updateValue(this)">/</button>
+                </div>                    
+                <div class="row2">
+                    <button class="btn" value="7" onClick="updateValue(this)">7</button>
+                    <button class="btn" value="8" onClick="updateValue(this)">8</button>
+                    <button class="btn" value="9" onClick="updateValue(this)">9</button>
+                    <button class="btn b" value="*" onClick="updateValue(this)">*</button>
+                </div>
+                <div class="row3">
+                    <button class="btn" value="4" onClick="updateValue(this)">4</button>
+                    <button class="btn" value="5" onClick="updateValue(this)">5</button>
+                    <button class="btn" value="6" onClick="updateValue(this)">6</button>
+                    <button class="btn b" value="-" onClick="updateValue(this)">-</button>
+                </div> 
+                <div class="row4">
+                    <button class="btn" value="1" onClick="updateValue(this)">1</button>
+                    <button class="btn" value="2" onClick="updateValue(this)">2</button>
+                    <button class="btn" value="3" onClick="updateValue(this)">3</button>
+                    <button class="btn b" value="+" onClick="updateValue(this)">+</button>
+                </div>
+                <div class="row5">
+                    <button class="btn" value="00" onClick="updateValue(this)">00</button>
+                    <button class="btn" value="0" onClick="updateValue(this)">0</button>
+                    <button class="btn" value="." onClick="updateValue(this)">.</button>
+                    <button class="btn b" value="=" onClick="calculate(this)">=</button>
+                </div>                                               
+            </div>
+        </div>
+    </body>
+    <footer>
+        <script src="index.js"></script>
+    </footer>
+</html
